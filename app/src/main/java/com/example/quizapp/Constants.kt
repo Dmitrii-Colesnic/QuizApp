@@ -12,21 +12,21 @@ object Constants {
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_moldova,
             "Moldova","Russia",
-            "Ukraine","Turkey",0
+            "Ukraine","Turkey",1
         )
         val question2 = Question(
-            1,
+            2,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_russia,
             "Moldova","Russia",
-            "Ukraine","Turkey",1
+            "Ukraine","Turkey",2
         )
         val question3 = Question(
-            1,
+            3,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_ukraine,
             "Moldova","Russia",
-            "Ukraine","Turkey",2
+            "Ukraine","Turkey",3
         )
 
         questions.add(question1)

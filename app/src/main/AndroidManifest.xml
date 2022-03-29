@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
+            android:name=".Congratulations"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/title_activity_congratulations"
+            android:theme="@style/Theme.QuizApp.Fullscreen" />
+        <activity
             android:name=".QuizQuestionsActivity"
             android:exported="true" />
         <activity
